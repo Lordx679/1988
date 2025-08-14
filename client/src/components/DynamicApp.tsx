@@ -51,11 +51,19 @@ export default function DynamicApp() {
       username: 'rengoku'
     },
     { 
-      name: 'YouTube', 
+      name: 'Instagram', 
       icon: Instagram, 
-      url: 'https://youtube.com/@r7nko?si=eOCUgFws3Ku8r5vq', 
+      url: 'https://www.instagram.com/mehdi_sl_mr?igsh=MXF5bTVuOWQ1OWxxdA==', 
       color: 'dynamic-hover',
       description: 'Content Creation',
+      username: '@mehdi_sl_mr'
+    },
+    { 
+      name: 'YouTube', 
+      icon: MessageCircle, 
+      url: 'https://youtube.com/@r7nko?si=eOCUgFws3Ku8r5vq', 
+      color: 'dynamic-hover',
+      description: 'Video Content',
       username: '@r7nko'
     },
     { 
@@ -79,7 +87,15 @@ export default function DynamicApp() {
     },
     {
       icon: Instagram,
-      title: 'Content Creation',
+      title: 'Instagram',
+      value: '@mehdi_sl_mr',
+      description: 'Follow my creative content and digital mastery.',
+      color: 'dynamic-gradient-2',
+      url: 'https://www.instagram.com/mehdi_sl_mr?igsh=MXF5bTVuOWQ1OWxxdA=='
+    },
+    {
+      icon: MessageCircle,
+      title: 'YouTube',
       value: '@r7nko',
       description: 'Watch my creative content and digital mastery.',
       color: 'dynamic-gradient-2',
