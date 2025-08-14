@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MessageCircle, Instagram, Crown, User, Mail, ExternalLink, MapPin, Calendar, Clock, Globe, Star, Heart, Gamepad2, Eye, Zap } from 'lucide-react';
+import { MessageCircle, Instagram, Crown, User, Mail, ExternalLink, MapPin, Calendar, Clock, Globe, Star, Heart, Gamepad2, Eye, Zap, Music, Video, Users } from 'lucide-react';
 import { useDiscordAvatar } from '../hooks/useUserData';
 import { useDynamicTheme } from '../contexts/DynamicThemeContext';
 
@@ -44,7 +44,7 @@ export default function DynamicApp() {
   const socialLinks = [
     { 
       name: 'Spotify', 
-      icon: MessageCircle, 
+      icon: Music, 
       url: 'https://open.spotify.com/user/31rcs63r7mx3kdte5siodvjeqf5i', 
       color: 'dynamic-hover',
       description: 'Musical Journey',
@@ -60,7 +60,7 @@ export default function DynamicApp() {
     },
     { 
       name: 'YouTube', 
-      icon: MessageCircle, 
+      icon: Video, 
       url: 'https://youtube.com/@r7nko?si=eOCUgFws3Ku8r5vq', 
       color: 'dynamic-hover',
       description: 'Video Content',
@@ -78,7 +78,7 @@ export default function DynamicApp() {
 
   const contactMethods = [
     {
-      icon: MessageCircle,
+      icon: Music,
       title: 'Musical Realm',
       value: 'Spotify',
       description: 'Experience my curated musical journey and playlists.',
@@ -94,7 +94,7 @@ export default function DynamicApp() {
       url: 'https://www.instagram.com/mehdi_sl_mr?igsh=MXF5bTVuOWQ1OWxxdA=='
     },
     {
-      icon: MessageCircle,
+      icon: Video,
       title: 'YouTube',
       value: '@r7nko',
       description: 'Watch my creative content and digital mastery.',
