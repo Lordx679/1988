@@ -430,23 +430,13 @@ export default function DynamicApp() {
                 </div>
 
                 {/* Enter Domain Button */}
-                <div className="text-center space-y-4">
+                <div className="text-center">
                   <button 
                     onClick={() => setActiveSection('connect')}
                     className="dynamic-button px-12 py-4 text-xl font-bold text-white rounded-2xl transition-all duration-300 hover:scale-105 dynamic-shadow-primary"
                   >
                     Enter My Domain
                   </button>
-                  <div>
-                    <a 
-                      href="https://lordx679.netlify.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block dynamic-button px-8 py-3 text-lg font-bold text-white rounded-2xl transition-all duration-300 hover:scale-105 dynamic-shadow-accent"
-                    >
-                      dev
-                    </a>
-                  </div>
                 </div>
 
                 {/* Domain Powers Grid */}
@@ -571,6 +561,18 @@ export default function DynamicApp() {
                     <span className="dynamic-text-primary font-bold">- RENGOKU</span>
                   </div>
                 </div>
+              </div>
+
+              {/* Dev Button at the Bottom */}
+              <div className="mt-16 text-center">
+                <a 
+                  href="https://lordx679.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block dynamic-button px-8 py-3 text-lg font-bold text-white rounded-2xl transition-all duration-300 hover:scale-105 dynamic-shadow-accent"
+                >
+                  dev
+                </a>
               </div>
             </div>
           </div>
