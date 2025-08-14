@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
           headers: {
             'Authorization': `Bot ${botToken}`,
             'Content-Type': 'application/json',
-            'User-Agent': 'LORD-Portfolio-Bot/1.0'
+            'User-Agent': 'RENGOKU-Portfolio-Bot/1.0'
           },
         });
 
@@ -86,7 +86,7 @@ exports.handler = async (event, context) => {
             },
             body: JSON.stringify({
               avatarUrl: realAvatarUrl,
-              username: 'LORDX679',
+              username: 'RENGOKU',
               discriminator: '0000',
               lastUpdated: timestamp,
               method: 'known_hash',
@@ -117,7 +117,7 @@ exports.handler = async (event, context) => {
             },
             body: JSON.stringify({
               avatarUrl: lookupData.avatar.link,
-              username: lookupData.username || 'LORDX679',
+              username: lookupData.username || 'RENGOKU',
               discriminator: lookupData.discriminator || '0000',
               lastUpdated: timestamp,
               method: 'lookup_service',
@@ -143,7 +143,7 @@ exports.handler = async (event, context) => {
       },
       body: JSON.stringify({
         avatarUrl: defaultAvatarUrl,
-        username: 'LORDX679',
+        username: 'RENGOKU',
         discriminator: '0000',
         lastUpdated: timestamp,
         method: 'default_fallback',

@@ -43,47 +43,47 @@ export default function DynamicApp() {
 
   const socialLinks = [
     { 
-      name: 'Discord', 
+      name: 'Spotify', 
       icon: MessageCircle, 
-      url: 'https://discord.com/users/1c.2', 
+      url: 'https://open.spotify.com/user/31rcs63r7mx3kdte5siodvjeqf5i', 
       color: 'dynamic-hover',
-      description: 'Connect in the Digital Realm',
-      username: '1c.2'
+      description: 'Musical Journey',
+      username: 'rengoku'
     },
     { 
-      name: 'Instagram', 
+      name: 'YouTube', 
       icon: Instagram, 
-      url: 'https://www.instagram.com/lordx679', 
+      url: 'https://youtube.com/@r7nko?si=eOCUgFws3Ku8r5vq', 
       color: 'dynamic-hover',
-      description: 'Witness the Journey',
-      username: '@lordx679'
+      description: 'Content Creation',
+      username: '@r7nko'
     },
     { 
       name: 'Roblox', 
       icon: Gamepad2, 
-      url: 'https://www.roblox.com/users/profile?username=aoufabok', 
+      url: 'https://www.roblox.com/users/5545282703/profile', 
       color: 'dynamic-hover',
       description: 'Enter My Domain',
-      username: 'aoufabok'
+      username: 'rengoku'
     },
   ];
 
   const contactMethods = [
     {
       icon: MessageCircle,
-      title: 'The Inner Sanctum',
-      value: '1c.2',
-      description: 'A direct conduit to the core of my design.',
+      title: 'Musical Realm',
+      value: 'Spotify',
+      description: 'Experience my curated musical journey and playlists.',
       color: 'dynamic-gradient-2',
-      url: 'https://discord.com/users/1c.2'
+      url: 'https://open.spotify.com/user/31rcs63r7mx3kdte5siodvjeqf5i'
     },
     {
       icon: Instagram,
-      title: 'Illusory Facades',
-      value: '@lordx679',
-      description: 'Observe the carefully crafted reality I present to the world.',
+      title: 'Content Creation',
+      value: '@r7nko',
+      description: 'Watch my creative content and digital mastery.',
       color: 'dynamic-gradient-2',
-      url: 'https://www.instagram.com/lordx679'
+      url: 'https://youtube.com/@r7nko?si=eOCUgFws3Ku8r5vq'
     },
     {
       icon: Mail,
@@ -96,10 +96,10 @@ export default function DynamicApp() {
     {
       icon: Gamepad2,
       title: 'The Proving Grounds',
-      value: 'aoufabok',
+      value: 'rengoku',
       description: 'A dimension where concepts are tested and dominance is forged.',
       color: 'dynamic-gradient-2',
-      url: 'https://www.roblox.com/users/profile?username=aoufabok'
+      url: 'https://www.roblox.com/users/5545282703/profile'
     }
   ];
 
@@ -190,7 +190,7 @@ export default function DynamicApp() {
             <div className="flex items-center justify-center space-x-6 text-5xl lg:text-8xl font-black">
               <div className="relative">
                 <span className="dynamic-text-primary animate-pulse delay-500 dynamic-glow-primary">
-                  LORD
+                  RENGOKU
                 </span>
                 <div className="absolute -top-2 -right-2 w-4 h-4 dynamic-bg-primary rounded-full animate-ping dynamic-shadow-primary"></div>
               </div>
@@ -241,7 +241,7 @@ export default function DynamicApp() {
                 <div className="absolute -top-1 -right-1 w-4 h-4 dynamic-bg-primary rounded-full animate-ping dynamic-shadow-primary border border-white/30"></div>
                 <div className="absolute inset-0 dynamic-bg-primary-opacity rounded-2xl blur-lg"></div>
               </div>
-              <span className="text-3xl font-black text-white dynamic-glow-primary">LORD</span>
+              <span className="text-3xl font-black text-white dynamic-glow-primary">RENGOKU</span>
             </div>
             <div className="flex items-center space-x-8">
               {[
@@ -307,7 +307,7 @@ export default function DynamicApp() {
                   </div>
                   
                   <h1 className="text-6xl lg:text-8xl font-black text-white mb-6 drop-shadow-2xl dynamic-glow-primary">
-                    I am <span className="dynamic-text-primary">LORD</span>
+                    I am <span className="dynamic-text-primary">RENGOKU</span>
                   </h1>
                   <p className="text-2xl lg:text-3xl text-white/80 mb-8 dynamic-glow-accent">
                     Architect of the Future
@@ -541,7 +541,7 @@ export default function DynamicApp() {
                     <div className="w-8 h-8 dynamic-gradient-2 rounded-full flex items-center justify-center dynamic-shadow-accent">
                       <Crown className="w-4 h-4 text-white" />
                     </div>
-                    <span className="dynamic-text-primary font-bold">- LORD</span>
+                    <span className="dynamic-text-primary font-bold">- RENGOKU</span>
                   </div>
                 </div>
               </div>

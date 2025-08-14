@@ -5,7 +5,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Discord avatar API route with enhanced fallback methods
   app.get('/api/discord-avatar', async (req, res) => {
     try {
-      // Use the actual Discord User ID for LORDX679
+      // Use the actual Discord User ID for RENGOKU
       const userId = req.query.userId as string || '394912002843344898';
 
       if (!userId) {
@@ -26,7 +26,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
             headers: {
               'Authorization': `Bot ${botToken}`,
               'Content-Type': 'application/json',
-              'User-Agent': 'LORD-Portfolio-Bot/1.0'
+              'User-Agent': 'RENGOKU-Portfolio-Bot/1.0'
             },
           });
 
@@ -110,7 +110,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         
         return res.json({
           avatarUrl: realAvatarUrl,
-          username: 'LORDX679',
+          username: 'RENGOKU',
           discriminator: '0000',
           lastUpdated: timestamp,
           method: 'known_hash_direct',
@@ -136,7 +136,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           if (testResponse.ok) {
             return res.json({
               avatarUrl: testUrl,
-              username: 'LORDX679',
+              username: 'RENGOKU',
               discriminator: '0000',
               lastUpdated: timestamp,
               method: 'discovered_format'
@@ -166,7 +166,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
             console.log('Found avatar via lookup service:', lookupData.avatar.link);
             return res.json({
               avatarUrl: lookupData.avatar.link,
-              username: lookupData.username || 'LORDX679',
+              username: lookupData.username || 'RENGOKU',
               discriminator: lookupData.discriminator || '0000',
               lastUpdated: timestamp,
               method: 'lookup_service',
@@ -184,7 +184,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       return res.json({
         avatarUrl: defaultAvatarUrl,
-        username: 'LORDX679',
+        username: 'RENGOKU',
         discriminator: '0000',
         lastUpdated: timestamp,
         method: 'default_fallback',

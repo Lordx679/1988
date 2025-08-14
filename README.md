@@ -118,10 +118,10 @@ MIT License - feel free to use for personal or commercial projects.
 
 ## 👨‍💻 Author
 
-**LORDX679**
-- Discord: 1c.2
-- Instagram: @lordx679
-- Roblox: aoufabok
+**RENGOKU**
+- Spotify: https://open.spotify.com/user/31rcs63r7mx3kdte5siodvjeqf5i
+- YouTube: @r7nko
+- Roblox: https://www.roblox.com/users/5545282703/profile
 
 ---
 
