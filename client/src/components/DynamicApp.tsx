@@ -351,7 +351,7 @@ export default function DynamicApp() {
                     <div className="flex items-center space-x-2">
                       <div className="w-3 h-3 dynamic-bg-primary rounded-full animate-pulse"></div>
                       <span className="dynamic-text-primary font-bold">Alias:</span>
-                      <span>LORDX679</span>
+                      <span>rengoku777</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <div className="w-3 h-3 dynamic-bg-primary rounded-full animate-pulse"></div>
