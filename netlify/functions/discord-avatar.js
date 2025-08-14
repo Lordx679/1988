@@ -1,6 +1,6 @@
 // Netlify function for Discord avatar fetching
 exports.handler = async (event, context) => {
-  const userId = event.queryStringParameters?.userId || '394912002843344898';
+  const userId = event.queryStringParameters?.userId || '1235696424482770995';
   const timestamp = Date.now();
   
   try {

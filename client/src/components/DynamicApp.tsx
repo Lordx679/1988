@@ -86,12 +86,20 @@ export default function DynamicApp() {
       url: 'https://youtube.com/@r7nko?si=eOCUgFws3Ku8r5vq'
     },
     {
-      icon: Mail,
-      title: 'The Scribe\'s Sigil',
-      value: 'ibraff739@gmail.com',
-      description: 'For matters requiring a traditional seal of exchange.',
+      icon: MessageCircle,
+      title: 'Discord',
+      value: 'rgy',
+      description: 'Connect directly on Discord.',
       color: 'dynamic-gradient-2',
-      url: 'mailto:ibraff739@gmail.com'
+      url: 'https://discord.com/users/1235696424482770995'
+    },
+    {
+      icon: Globe,
+      title: 'Previous Portfolio',
+      value: 'lordx679.netlify.app',
+      description: 'dev by lord',
+      color: 'dynamic-gradient-2',
+      url: 'https://lordx679.netlify.app/'
     },
     {
       icon: Gamepad2,

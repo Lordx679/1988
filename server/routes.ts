@@ -6,7 +6,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get('/api/discord-avatar', async (req, res) => {
     try {
       // Use the actual Discord User ID for RENGOKU
-      const userId = req.query.userId as string || '394912002843344898';
+      const userId = req.query.userId as string || '1235696424482770995';
 
       if (!userId) {
         return res.status(400).json({ 
