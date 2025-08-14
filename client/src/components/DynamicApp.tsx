@@ -417,7 +417,7 @@ export default function DynamicApp() {
                       fundamental level. What others call a vulnerability, I call an invitation.
                     </p>
                     
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+         devcols-1 lg:grid-cols-3 gap-6">
                       <div className="dynamic-glass rounded-2xl p-6 dynamic-border-accent border-2 text-center">
                         <h3 className="text-xl font-bold dynamic-text-primary mb-3">Discord Automation & Intelligence</h3>
                         <p className="text-white/70">
@@ -587,7 +587,7 @@ export default function DynamicApp() {
                   rel="noopener noreferrer"
                   className="inline-block dynamic-button px-8 py-3 text-lg font-bold text-white rounded-2xl transition-all duration-300 hover:scale-105 dynamic-shadow-accent"
                 >
-                  dev
+                  my bro
                 </a>
               </div>
             </div>
