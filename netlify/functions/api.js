@@ -81,7 +81,7 @@ app.get('/api/discord-avatar', async (req, res) => {
       
       return res.json({
         avatarUrl: realAvatarUrl,
-        username: 'LORDX679',
+        username: 'RENGOKU',
         discriminator: '0000',
         lastUpdated: timestamp,
         method: 'known_hash'
@@ -94,7 +94,7 @@ app.get('/api/discord-avatar', async (req, res) => {
 
     return res.json({
       avatarUrl: defaultAvatarUrl,
-      username: 'LORDX679',
+      username: 'RENGOKU',
       discriminator: '0000',
       lastUpdated: timestamp,
       method: 'default_fallback',

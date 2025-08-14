@@ -95,6 +95,22 @@ export default function DynamicApp() {
     },
     {
       icon: Gamepad2,
+      title: 'Epic Games',
+      value: 'kr_rengoku',
+      description: 'Join me in epic gaming adventures.',
+      color: 'dynamic-gradient-2',
+      url: 'https://store.epicgames.com/u/kr_rengoku'
+    },
+    {
+      icon: Gamepad2,
+      title: 'PlayStation Network',
+      value: 'rengoku__R7',
+      description: 'Gaming on PlayStation console.',
+      color: 'dynamic-gradient-2',
+      url: 'https://psnprofiles.com/rengoku__R7'
+    },
+    {
+      icon: Gamepad2,
       title: 'The Proving Grounds',
       value: 'rengoku',
       description: 'A dimension where concepts are tested and dominance is forged.',

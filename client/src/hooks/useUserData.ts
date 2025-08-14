@@ -29,7 +29,7 @@ export function useDiscordAvatar() {
           // Use fallback avatar
           setAvatar({
             avatarUrl: '/e9c4e804b0c546262bd2bc03f593648d.jpg',
-            username: 'LORDX679',
+            username: 'RENGOKU',
             discriminator: '0000'
           });
         }
